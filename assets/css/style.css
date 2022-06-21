@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   
+}
+body
+{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+/************Default Code*******************/
+.clear{
+    overflow: hidden;
+}
+h3{
+    font-weight: 500;
+    color: #676597;
+    margin-left: 20px;
+    
+}
+span{
+    margin-left: 20px;
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    color: #6e6ed8;
+    font-weight: 500;
+}
+a{
+    color: initial;
+   text-decoration: none; 
+}
+
+/*----Header section------*/
+.header
+{
+    height: 100px;
+    background-color:rgb(106, 106, 190);
+}
+.header-l{}
+.header-l #users
+{
+    display: inline-flex;
+    padding: 12px 15px 12px 15px;
+    font-size: 65px;
+    color: rgb(149, 23, 207);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(250, 247, 247);
+   
+}
+.header-l .location
+{
+    font-size: 18px;
+    color: #50506a;
+    margin: -78px 258px 45px 0px !important;
+}
+.header-l .location:hover
+{
+    color: #dadaf0;
+    transition: .3s;
+}
+
+.header-l > h3{
+    font-size: 30px !important;
+   color: #e2e2ed;
+   margin: -42px 10px 15px 130px;
+}
+/****/
+.header-r{}
+.header-r ul{
+    float: right;
+    margin-top: 10px;
+}
+.header-r ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-r ul li #r-items {
+    font-size: 35px;
+    padding: 15px;
+    margin-top: 10px;
+    color: white;
+}
+.header-r ul li #r-items:hover{
+    color: rgb(238, 225, 225);
+    transition: .3s;
+}
+.header-r ul .qus{
+    margin-top: 5px;
+    padding: 1px;
+
+}
+/**************Account Section***************/
+.account{
+    background-color: #e0f4b7;
+}
+
+.account .bank{
+    padding: 10px 5px;
+    margin: 8px 15px;
+}
+.account .bank span i{
+    font-size: 30px;
+    margin-left: 30%;
+    color: #00800091;
+    background-color: #ffffef;
+    padding: 10px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+.account .wallet{
+    padding: 10px 5px;
+    margin: 8px 15px;
+}
+
+.account .wallet span i{
+    font-size: 30px;
+    margin-left: 30%;
+    color: #00800091;
+    background-color: #ffffef;
+    padding: 10px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+
+.account .money{
+    padding: 10px 5px;
+    margin: 8px 15px;
+}
+
+.account .money span i{
+    font-size: 30px;
+    margin-left: 30%;
+    background-color: #ffffef;
+    padding: 10px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+.account .photo{
+    padding: 10px 5px;
+    margin: 8px 15px;
+}
+.account .photo span i{
+    font-size: 30px;
+    margin-left: 30%;
+    background-color: #ffffef;
+    padding: 10px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+/********Money Transfer Section************/
+.transfer{
+    background-color: #f5f5ef1c; 
+}
+.transfer-1{}
+.transfer .mt-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.transfer .to-contact{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+
+.transfer .to-contact span i{
+    font-size: 30px;
+    margin-left: 31%;
+    color: #fffffe;
+    background-color: #4648d7;
+    padding: 20px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+
+.transfer .to-account{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+
+.transfer .to-account span i{
+    font-size: 30px;
+    margin-left: 31%;
+    color: #fffffe;
+    background-color: #4648d7;
+    padding: 20px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+
+.transfer .to-self{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+
+.transfer .to-self span i{
+    font-size: 20px;
+    margin-left: 29%;
+    color: #fffffe;
+    background-color: #4648d7;
+    padding: 25px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+.transfer .b-balance{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+
+.transfer .b-balance span i{
+    font-size: 20px;
+    margin-left: 31%;
+    color: #fffffe;
+    background-color: #4648d7;
+    padding: 25px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+/************************/
+.transfer-2{
+    height: 30%;
+    background-color: #e8e8f387;
+}
+.transfer-2 .offers{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+
+.transfer-2 .offers span i{
+    font-size: 20px;
+    margin-left: 35%;
+    color: #fffffe;
+    background-color: #f33c0e;
+    padding: 25px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+
+.transfer-2 .rewards{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+.transfer-2 .rewards span{
+    margin-left: 20px
+}
+.transfer-2 .rewards span i{
+    font-size: 20px;
+    margin-left: 35%;
+    color: #fffffe;
+    background-color: #f33c0e;
+    padding: 25px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+
+.transfer-2 .refers{
+    padding: 20px 5px;
+    margin: 7px 15px;
+}
+
+.transfer-2 .refers span i{
+    font-size: 20px;
+    margin-left: 31%;
+    color: #fffffe;
+    background-color: #4648d7;
+    padding: 25px;
+    border: 1px solid #fffdff;
+    border-radius: 50%;
+}
+
+/***********Recharge Section*******************/
+.recharge{
+    overflow-x: hidden;
+    background-color: #f5f5ef1c; 
+}
+.recharge-1{}
+.recharge .rec-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.recharge .rec-mobile{
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+
+.recharge .rec-mobile span i{
+    font-size: 45px;
+    margin-left: 25%;
+    color: #ec360b85;
+    padding: 25px;
+   
+}
+
+.recharge .rec-dth{
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+
+.recharge .rec-dth span i{
+    font-size: 45px;
+    margin-left: 28%;
+    color: #ec360b85;
+    padding: 25px;
+}
+
+
+.recharge .rec-electricity{
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+
+.recharge .rec-electricity span i{
+    font-size: 45px;
+    margin-left: 28%;
+    color: #ec360b85;
+    padding: 25px;
+}
+
+
+.recharge .rec-card{
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+
+.recharge .rec-card span i{
+    font-size: 45px;
+    margin-left: 25%;
+    color: #ec360b85;
+    padding: 25px;
+}
+
+.recharge-2{}
+.recharge .rec-water {
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+.recharge .rec-water span i{
+    font-size: 45px;
+    margin-left: 28%;
+    color: #ec360b85;
+    padding: 25px;
+}
+.recharge .rec-datacard {
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+
+.recharge .rec-datacard span i{
+    font-size: 45px;
+    margin-left: 28%;
+    color: #ec360b85;
+    padding: 25px;
+}
+.recharge .rec-insurance {
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+.recharge .rec-insurance span i{
+    font-size: 45px;
+    margin-left: 25%;
+    color: #ec360b85;
+    padding: 25px;
+}
+.recharge .rec-tax {
+    padding: 0px 5px;
+    margin: 5px 15px;
+}
+.recharge .rec-tax span i{
+    font-size: 45px;
+    margin-left: 25%;
+    color: #ec360b85;
+    padding: 25px;
+}
+
+
+/*************Menu Section**********************/
+.menu{
+    background-color: #e0d3d329;
+}
+.menu ul{
+    margin: 10px;
+}
+.menu ul li{
+   
+    list-style: none;
+    display: inline-block;
+   
+    margin-left: 10%;
+    margin-right: 57px;
+}
+.menu ul li a{
+    color: #161515cc;
+    text-align: center;
+    text-decoration: none;
+}
+.menu #home-items{
+
+    font-size: 30px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu ul li a:hover{
+    color: #6e6ed8;
+    transition: .3s;
+}
+
+/*****Bank-Details Section*****************************/
+.bank-details{
+    overflow-x: hidden;
+    background-color: #e0f4b7;
+}
+.bank-items{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.nav-icon{
+    
+    font-size:25px;
+    color: rgb(117, 62, 219);
+}
+.bank-items #all-items{}
+.nav-pills .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #6b5209cf;
+    text-transform: uppercase;
+}
+.nav-pills .nav-link.active{
+    background-color: #7b990d;
+}
+#pills-add-tab{}
+.bank-form{
+    margin-left: 25%;
+    margin-bottom: 10px;
+    
+}
+.form-n{
+   
+    color: #983f5de6;
+    font-size: 15px;
+    font-weight: 500;
+}
+#form-input{
+    width: 50% !important;
+    outline: none;
+}
+.list-group-item{
+    width: 50%;
+    margin: auto;
+    background-color: #fdf6f6;
+}
+.rounded-pill{
+    padding: 10px;
+    border-radius: 5px!important;
+}
+.list-group{
+    margin-bottom: 10px;
+}
+
+/**** Wallet-Page-Details Section***************** */
+.wallet-details{
+    overflow-x: hidden;
+    background-color: #e0f4b7;
+}
+.bank-form{
+    margin-left: 25%;
+    margin-bottom: 10px;
+    
+}
+.wallet-items{
+    margin-top: 10px;
+    margin-left: 25%;
+}
+#wall-items{}
+.wallet-form{
+    border: 2px solid #ffff;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.wallet-table{
+    color: #122639ba;
+}
+
+.wallet-table th {
+    color: #19100d;
+}
+.bkash{
+    margin-left: 10%;
+    width: 80px;
+}
+.wallet-btn2{
+    display: none;
+}
+/* Card-Details Section Start*********/
+.card-section{
+   
+    overflow-x: hidden;
+    background-color: #e0f4b7;
+}
+.card-section h2{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 40%;
+    font-weight: 500;
+    color: #4648d7;
+   
+}
+.card-form{
+    background-color: #f8f8f754;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+.payment-section{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.nav-tabs.pay-nave{
+    margin-bottom: 25px;
+    border: none;
+}
+.pay-iteme{
+    margin: auto;
+}
+.pay-btn{
+    margin-bottom: 10px;
+}
+
+
+

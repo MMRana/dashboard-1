@@ -1,0 +1,669 @@
+/* XXL Device :1400px. */
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .header-l #users {
+        font-size: 65px;
+    }
+    .header-l .location{
+        margin: -78px 258px 45px 0px !important;
+    }
+    /* wallet */
+    #wallet-btn{
+        width: 32%!important;
+    }
+}
+
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .header-l #users{
+        font-size: 60px;
+    }
+    .header-l .location {
+        margin: -70px 200px 60px 0px !important;
+    }
+    .header-l > h3 {
+        font-size: 26px !important;
+         margin: -46px 10px 15px 117px
+    }
+    .transfer .to-contact span i,
+    .transfer .to-account span i,
+    .transfer .to-self span i,
+    .transfer .b-balance span i{
+        font-size: 22px;
+        margin-left: 25%;
+        padding: 21px;
+    }
+    .transfer-2 .offers span i,
+    .transfer-2 .rewards span i,
+    .transfer-2 .refers span i{
+        margin-left: 33%;
+        padding: 22px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .recharge .rec-mobile span i,
+    .recharge .rec-dth span i ,
+    .recharge .rec-electricity span i,
+    .recharge .rec-card span i,
+    .recharge .rec-water span i,
+    .recharge .rec-datacard span i,
+    .recharge .rec-insurance span i,
+    .recharge .rec-tax span i {
+        font-size: 40px;
+        margin-left: 23%;
+    }
+    /* wallet */
+  
+}
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-l #users{
+        font-size: 50px;
+    }
+    .header-l .location{
+        margin: -60px 105px 60px 0px !important;
+    }
+    .header-l > h3{
+        font-size: 22px !important;
+        margin: -40px 10px 15px 118px;
+    }
+    .header-r ul li #r-items{
+        font-size: 25px;
+    }
+
+    p{
+        margin-top: 5px;
+    }
+
+
+    .account .photo span i,
+    .account .money span i,
+    .account .wallet span i,
+    .account .bank span i{
+        margin-left: 21%;
+    }
+
+    .transfer .to-contact span i,
+    .transfer .to-account span i,
+    .transfer .to-self span i,
+    .transfer .b-balance span i{
+        font-size: 20px;
+        margin-left: 20%;
+        padding: 20px;
+    }
+    
+
+    .transfer-2 .offers span i,
+    .transfer-2 .rewards span i,
+    .transfer-2 .refers span i{
+        font-size: 20px;
+        margin-left: 28%;
+        padding: 20px;
+    }
+    
+    .recharge .rec-mobile span i,
+    .recharge .rec-dth span i ,
+    .recharge .rec-electricity span i,
+    .recharge .rec-card span i,
+    .recharge .rec-water span i,
+    .recharge .rec-datacard span i,
+    .recharge .rec-insurance span i,
+    .recharge .rec-tax span i {
+        font-size: 40px;
+        margin-left: 16%;
+    }
+    .menu ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 8%;
+        margin-right: 57px;
+    }
+
+    /* wallet */
+    .wallet-items {
+        margin-top: 10px;
+        margin-left: 2%;
+        flex-wrap: unset;
+    }
+    .wallet-btn2{
+        display: none;
+    }
+    /* card */
+    .card-form {
+        width: 100%;
+    }
+}
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-l #users{
+        font-size: 45px;
+    }
+    .header-l .location{
+        margin: -60px 5px 60px 0px !important;
+    }
+    .header-l > h3{
+        font-size: 20px !important;
+        margin: -40px 10px 15px 100px;
+    }
+    .header-r ul li #r-items{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+        margin: 25px 0px -10px 25px;
+    }
+    p{
+        margin-top: 5px;
+    }
+    .account .photo span i,
+    .account .money span i,
+    .account .wallet span i,
+    .account .bank span i{
+        margin-left: 10%;
+    }
+
+    .transfer .to-contact span i,
+    .transfer .to-account span i,
+    .transfer .to-self span i,
+    .transfer .b-balance span i{
+        font-size: 16px;
+        margin-left: 6%;
+        padding: 18px;
+    }
+
+    .transfer-2 .offers span i,
+    .transfer-2 .rewards span i,
+    .transfer-2 .refers span i{
+        font-size: 18px;
+        margin-left: 20%;
+        padding: 20px;
+    }
+
+    .recharge .rec-mobile span i,
+    .recharge .rec-dth span i ,
+    .recharge .rec-electricity span i,
+    .recharge .rec-card span i,
+    .recharge .rec-water span i,
+    .recharge .rec-datacard span i,
+    .recharge .rec-insurance span i,
+    .recharge .rec-tax span i {
+        font-size: 35px;
+        margin-left: 6%;
+        padding: 16px;
+    }
+
+    .menu ul li{
+        margin-left: 8%;
+        margin-right: 28px;
+    }
+
+    .menu #home-items{
+        font-size: 25px;
+    }
+    /* wallet */
+
+    /* card */
+
+    .nav-tabs.pay-nave {
+        flex-wrap: unset;
+    }
+    .card-form {
+        width: 100%;
+    }
+
+}
+
+/* SM Device :576px. */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-l #users{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 8px;
+    }
+    .header-l .location{
+        margin: -60px -60px 60px 0px !important;
+    }
+    .header-l > h3{
+        font-size: 15px !important;
+        margin: -35px 10px 15px 94px;
+    }
+    .header-r ul li #r-items{
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+        margin: 5px 0px -10px 15px;
+    }
+    p{
+        font-size: 11px;
+        font-weight: 600;
+        margin-top: 5px;
+    }
+    .account .bank ,
+    .account .wallet ,
+    .account .money ,
+    .account .photo{
+        padding: 1px 5px;
+        margin: 1px 15px;
+    }
+
+    .account .photo span i,
+    .account .money span i,
+    .account .wallet span i,
+    .account .bank span i{
+        font-size: 25px;
+        margin-left: -8%;
+        padding: 8px;
+    }
+    .transfer .to-contact,
+    .transfer .to-account,
+    .transfer .to-self,
+    .transfer .b-balance,
+    .transfer-2 .offers,
+    .transfer-2 .rewards ,
+    .transfer-2 .refers {
+        padding: 2px 5px;
+        margin: 2px 15px;
+    }
+
+    .transfer .to-contact span i,
+    .transfer .to-account span i,
+    .transfer .to-self span i,
+    .transfer .b-balance span i{
+       
+        font-size: 25px;
+        margin-left: -12%;
+        padding: 12px;
+    }
+
+    .transfer-2 .offers span i,
+    .transfer-2 .rewards span i,
+    .transfer-2 .refers span i{
+        font-size: 30px;
+        margin-left: 8%;
+        padding: 13px;
+    }
+   
+    .recharge .rec-mobile span i,
+    .recharge .rec-dth span i ,
+    .recharge .rec-electricity span i,
+    .recharge .rec-card span i,
+    .recharge .rec-water span i,
+    .recharge .rec-datacard span i,
+    .recharge .rec-insurance span i,
+    .recharge .rec-tax span i {
+        font-size: 40px;
+        margin-left: -21%;
+        padding: 12px;
+
+    }
+
+    .menu ul li{
+        margin-left: 6%;
+        margin-right: 27px;
+    }
+
+    .menu ul li a {
+        font-size: 13px;
+    }
+
+    .menu #home-items{
+        font-size: 22px;
+    }
+
+    /* bank_address page */
+
+    .bank-items{
+        display: flex;
+        margin-left: 4%;
+        margin-top: 10px;
+        flex-wrap: nowrap;
+    }
+    .nav-pills .nav-link {
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #6b5209cf;
+        text-transform: uppercase;
+    }
+    .bank-form {
+        margin-left: 6%;
+        margin-bottom: 10px;
+    }
+    #form-input {
+        margin-left: 20px;
+        width: 85% !important;
+        outline: none;
+    }
+    .form-n {
+        color: #983f5de6;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .list-group-item {
+        width: 80%;
+        margin: auto;
+        background-color: #fdf6f6;
+    }
+    .list-group-item {
+        width: 80%;
+        margin: auto;
+        background-color: #fdf6f6;
+       
+    }
+    /* wallet */
+    .wallet-items {
+        display: flex;
+        flex-wrap: unset;
+    }
+
+    #ls-tbl{
+        display: none;
+    }
+    .table>:not(:last-child)>:last-child>* {
+       border-bottom: none; 
+    }
+    #wallet-btn{
+        width: 32%!important;
+    }
+
+    /* card */
+    .nav-tabs.pay-nave {
+        flex-wrap: unset;
+    }
+    .card-form {
+        width: 100%;
+    }
+}
+/* XS Device */
+@media (min-width: 540px) and (max-width: 575px) {
+
+    .header-l #users {
+        display: inline-flex;
+        padding: 8px 11px 8px 11px;
+        font-size: 48px;
+        color: rgb(149, 23, 207);
+        border-radius: 50%;
+        margin-top: 25px;
+        margin-left: 5px;
+        background-color: rgb(250, 247, 247);
+     }
+     .header-l > h3 {
+        font-size: 15px !important;
+        color: #e2e2ed;
+        margin: -25px 6px 15px 85px;
+    }
+    .header-r ul li #r-items {
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 35px;
+        color: white;
+    }
+    .account .bank span i,
+    .account .wallet span i {
+        font-size: 28px;
+        margin-left: -11%;
+        color: #00800091;
+        background-color: #ffffef;
+        padding: 8px;
+        border: 1px solid #fffdff;
+        border-radius: 50%;
+    }
+    .account .money span i,
+    .account .photo span i{
+        font-size: 28px;
+        margin-left: -11%;
+        background-color: #ffffef;
+        padding: 8px;
+        border: 1px solid #fffdff;
+        border-radius: 50%;
+    }
+        .transfer .to-contact,
+        .transfer .to-account,
+        .transfer .to-self,
+        .transfer .b-balance,
+        .transfer-2 .offers,
+        .transfer-2 .rewards ,
+        .transfer-2 .refers {
+            padding: 2px 5px;
+            margin: 2px 15px;
+        }
+
+    
+
+    .transfer .to-contact span i,
+    .transfer .to-account span i,
+    .transfer .to-self span i,
+    .transfer .b-balance span i{
+       
+        font-size: 28px;
+        margin-left: -18%;
+        padding: 12px;
+      
+    }
+    .transfer-2 .offers span i,
+    .transfer-2 .rewards span i,
+    .transfer-2 .refers span i{
+        font-size: 26px;
+        margin-left: 5%;
+        color: #fffffe;
+        background-color: #f33c0e;
+        padding: 15px;  
+    }
+    .recharge .rec-mobile span i,
+    .recharge .rec-dth span i ,
+    .recharge .rec-electricity span i,
+    .recharge .rec-card span i,
+    .recharge .rec-water span i,
+    .recharge .rec-datacard span i,
+    .recharge .rec-insurance span i,
+    .recharge .rec-tax span i{
+            font-size: 38px;
+            margin-left: -18%;
+            padding: 12px;
+        }
+
+        .menu ul li{
+            margin-left: 6%;
+            margin-right: 27px;
+        }
+    
+        .menu ul li a {
+            font-size: 13px;
+        }
+    
+        .menu #home-items{
+            font-size: 22px;
+        }
+
+         /* Bank Address */
+
+        .nav-pills .nav-link {
+            font-size: 11px;
+        }
+        .bank-items {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -1%;
+            margin-top: 14px;
+        }
+
+        /* wallet */
+
+        .wallet-items {
+            display: flex;
+            flex-wrap: unset;
+            margin-top: 10px;
+            margin-left: 2%;
+        }
+        .table>:not(:last-child)>:last-child>*{
+            width: 2%;
+        }
+        #ls-tbl{
+            display: none;
+        }
+        .table>:not(:last-child)>:last-child>* {
+           border-bottom: none; 
+        }
+        #wallet-btn{
+            width: 30%!important;
+        }
+        /* card */
+
+        .card-section h2 {
+            margin-bottom: 16px;
+            margin-left: 30%;   
+        }
+        .payment-section {
+            padding: 10px;
+            width: 100%;
+            margin: auto;
+        }
+
+
+}
+/* XXS Device */
+@media (min-width: 370px) and (max-width: 539px) {
+
+    .header-l #users {
+        padding: 6px 8px 8px 6px;
+        font-size: 40px;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .header-l > h3 {
+        font-weight: 500;
+        font-size: 11px !important;
+        margin: -22px 4px 15px 58px;
+    }
+    .header-r ul li #r-items {
+        font-size: 15px;
+        padding: 8px;
+        margin-top: 38px;
+
+    }
+    .header-r ul .qus {
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .header-r ul li {
+        margin-right: 4px;
+    }
+    span {
+        margin-left: -13px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .account .bank span i,
+    .account .wallet span i,
+    .account .money span i,
+    .account .photo span i {
+        font-size: 27px;
+        padding: 5px;
+       
+    }
+    .transfer .to-contact,
+    .transfer .to-account,
+    .transfer .to-self,
+    .transfer .b-balance,
+    .transfer-2 .offers,
+    .transfer-2 .rewards ,
+    .transfer-2 .refers {
+        margin: 0px 8px;
+    }
+    .transfer .to-contact span i,
+    .transfer .to-account span i,
+    .transfer .to-self span i,
+    .transfer .b-balance span i {
+        font-size: 26px;
+        margin-left: 31%;
+        padding: 10px;
+      
+    }
+    .transfer-2 .rewards span,
+    .transfer-2 .refers span {
+        margin-left: -13px;
+    }
+    .transfer-2 .offers span i,
+    .transfer-2 .rewards span i,
+    .transfer-2 .refers span i {
+        font-size: 26px;
+        margin-left: 35%;
+        padding: 12px;
+       
+    }
+    .recharge .rec-mobile,
+    .recharge .rec-dth,
+    .recharge .rec-electricity,
+    .recharge .rec-card,
+    .recharge .rec-water,
+    .recharge .rec-datacard,
+    .recharge .rec-insurance,
+    .recharge .rec-tax {
+        margin: -9px 5px;
+    }
+    .recharge .rec-mobile span i,
+    .recharge .rec-dth span i ,
+    .recharge .rec-electricity span i,
+    .recharge .rec-card span i,
+    .recharge .rec-water span i,
+    .recharge .rec-datacard span i,
+    .recharge .rec-insurance span i,
+    .recharge .rec-tax span i{
+        font-size: 25px;
+        margin-left: 38%;
+        padding: 7px;
+        }
+        .menu ul li {
+            text-align: center;
+        }
+     .menu #home-items {
+            font-size: 25px;
+            display: block;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        .menu ul li {
+            list-style: none;
+            display: inline-block;
+            margin-left: 3%;
+            margin-right: 5px;
+        }
+      /* bank */
+      .bank-items {
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+      .nav .nav-pillsv {
+         flex-wrap: column;
+    }
+    /* wallet */
+    #ls-tbl{
+        display: none;
+    }
+    #wallet-btn{
+        display: none;
+    }
+    .w-btn2{
+        margin-left: 20px;
+        display: block;
+    }
+    /* card */
+    .card-form {
+        width: 100%;
+    }
+}
+
+
+
+

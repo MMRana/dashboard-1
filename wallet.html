@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/font-all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+         <!-----Head Section Start------->
+         <div class="container header">
+            <div class="row">
+                <div class="col-6">
+                    <div class="header-l">
+                        <i class="fa-solid fa-user" id="users"></i>
+                        <h3>MD.AFZAL MIAH <i class="fa-solid fa-caret-down"></i> </h3>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="header-r">
+                    <ul class="nav">
+                        <li class="qrc"><a href="#"><i class="fa-solid fa-qrcode" id="r-items"></i> </a></li>
+                        <li class="noti"><a href="#"></a><i class="fa-solid fa-bell" id="r-items"></i></a></li>
+                        <li class="qus"><a href="#"></a><i class="fa-solid fa-question" id="r-items"></i></a></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+         <!-----Head Section End------->
+         <!-----Wallet-Details Section Start------->
+         <section class="container wallet-details">
+
+            <ul class="nav nav-pills mb-3 wallet-items" id="pills-tab" role="tablist">
+
+                <li class="nav-item " role="presentation" id="wall-items">
+                  <button class="nav-link active" id="pills-bwallet-tab" data-bs-toggle="pill" data-bs-target="#pills-bwallet" type="button" role="tab" aria-controls="pills-bwallet" aria-selected="true">Bkash Wallet</button>
+                </li>
+
+                <li class="nav-item" role="presentation" id="wall-items">
+                  <button class="nav-link" id="pills-nwallet-tab" data-bs-toggle="pill" data-bs-target="#pills-nwallet" type="button" role="tab" aria-controls="pills-nwallet" aria-selected="false">Nagad Wallet</button>
+                </li>
+
+                <li class="nav-item" role="presentation" id="wall-items">
+                  <button class="nav-link" id="pills-rwallet-tab" data-bs-toggle="pill" data-bs-target="#pills-rwallet" type="button" role="tab" aria-controls="pills-rwallet" aria-selected="false">Rocket Wallet</button>
+                </li>
+
+                <li class="nav-item" role="presentation" id="wall-items">
+                    <button class="nav-link" id="pills-uwallet-tab" data-bs-toggle="pill" data-bs-target="#pills-uwallet" type="button" role="tab" aria-controls="pills-uwallet" aria-selected="false">Upay Wallet</button>
+                  </li>
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-bwallet" role="tabpanel" aria-labelledby="pills-bwallet-tab">
+
+                  <img src="./assets/images/bkash.jpg" class="bkash" alt="">
+                  <br>
+                  <form class="form wallet-form">
+                  <table class="table wallet-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Bkash Number</th>
+                        <th scope="col" id="ls-tbl">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">#1</th>
+                        <td>MD.Afzal miah</td>
+                        <td >01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                         <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                         <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#2</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#3</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                         <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                         <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <span class="w-btn2">
+                    <button class="btn btn-primary">Add</button>
+                    <button class="btn btn-success "> Edite </button>
+                    <button class="btn btn-danger">Delete</button>
+                  </span>
+                </form>
+                </div>
+
+                <div class="tab-pane fade" id="pills-nwallet" role="tabpanel" aria-labelledby="pills-nwallet-tab">
+
+                  <img src="./assets/images/nagad.png" class="bkash" alt="">
+                  <br>
+                  <form class="form wallet-form">
+                  <table class="table wallet-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Nagad Number</th>
+                        <th scope="col" id="ls-tbl">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">#1</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#2</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                         <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                         <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#3</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+                </div>
+
+                <div class="tab-pane fade" id="pills-rwallet" role="tabpanel" aria-labelledby="pills-rwallet-tab">
+
+                  <img src="./assets/images/rocket1.png" class="bkash" alt="">
+                  <br>
+                  <form class="form wallet-form">
+                  <table class="table wallet-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Rocket Number</th>
+                        <th scope="col" id="ls-tbl">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">#1</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#2</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#3</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </form>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-uwallet" role="tabpanel" aria-labelledby="pills-uwallet-tab">
+
+                  <img src="./assets/images/upay1.jpg" class="bkash" alt="">
+                  <br>
+                  <form class="form wallet-form">
+                  <table class="table wallet-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Upay Number</th>
+                        <th scope="col" id="ls-tbl">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">#1</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                         <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                         <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#2</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                          <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                          <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">#3</th>
+                        <td>MD.Afzal miah</td>
+                        <td>01770618575</td>
+                        <td>
+                          <button class="btn btn-primary w-25" id="wallet-btn">Add</button>
+                         <button class="btn btn-success w-25" id="wallet-btn" > Edite </button>
+                         <button class="btn btn-danger w-25" id="wallet-btn">Delete</button>
+                       </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+                </div>
+                </div>
+              </div>
+         </section>
+
+<!-----Manu Section Start------->
+             
+        <div class="container menu">
+            <div class="row">
+                    <ul class="nav">
+                        <li ><a href="#"><i class="fa-solid fa-house" id="home-items"></i> Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"  id="home-items"></i> Stores</a></li>
+                        <li><a href="#"><i class="fa-solid fa-comment-dollar"  id="home-items"></i> Switch</a></li>
+                        <li><a href="#"><i class="fa-solid fa-indian-rupee-sign"  id="home-items"></i> My Money</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"  id="home-items"></i> History</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!-----Manu Section End------->
+   
+    <!------JS Files-------->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

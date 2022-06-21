@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/font-all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+         <!-----Head Section Start------->
+         <div class="container header">
+            <div class="row">
+                <div class="col-6">
+                    <div class="header-l">
+                        <i class="fa-solid fa-user" id="users"></i>
+                        <h3>MD.AFZAL MIAH <i class="fa-solid fa-caret-down"></i> </h3>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="header-r">
+                    <ul class="nav">
+                        <li class="qrc"><a href="#"><i class="fa-solid fa-qrcode" id="r-items"></i> </a></li>
+                        <li class="noti"><a href="#"></a><i class="fa-solid fa-bell" id="r-items"></i></a></li>
+                        <li class="qus"><a href="#"></a><i class="fa-solid fa-question" id="r-items"></i></a></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+         <!-----Head Section End------->
+         <!-----Card-Details Section Start------->
+          <section>
+            <div class="container card-section">
+              <div class="row">
+                 <div class="col-"><h2>Add Your Card</h>
+                  </div> 
+                </div>
+                <div class="orw">
+                  <div class="col- col-md- payment-section">
+
+                    <ul class="nav nav-tabs pay-nave" id="myTab" role="tablist">
+                      <li class="nav-item pay-iteme" role="presentation">
+                        <button class="nav-link active" id="credit-tab" data-bs-toggle="tab" data-bs-target="#credit" type="button" role="tab" aria-controls="credit" aria-selected="true">Credit/Debit</button>
+                      </li>
+                      <li class="nav-item pay-iteme" role="presentation">
+                        <button class="nav-link" id="paypal-tab" data-bs-toggle="tab" data-bs-target="#paypal" type="button" role="tab" aria-controls="paypal" aria-selected="false">PayPal</button>
+                      </li>
+                      <li class="nav-item pay-iteme" role="presentation">
+                        <button class="nav-link" id="payoneer-tab" data-bs-toggle="tab" data-bs-target="#payoneer" type="button" role="tab" aria-controls="payoneer" aria-selected="false"> Payoneer</button>
+                      </li>
+                    </ul>
+
+
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="credit" role="tabpanel" aria-labelledby="credit-tab">
+                        <form class="row g-3 card-form">
+                          <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Name on card
+                            </label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name on card">
+                          </div>
+                          <div class="col-md-12">
+                            <label for="inputPassword4" class="form-label">Card number</label>
+                            <input type="number" class="form-control" id="inputPassword4" placeholder="0000 0000 0000 0000">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Security Code</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Security Code">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputState" class="form-label">Expiration Date</label>
+                            <input type="date" class="form-control" id="inputCity" placeholder="MM/YY">
+                          </div>
+                        
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-primary pay-btn">Submit</button>
+                          </div>
+                        </form> 
+                    </div>
+
+                      <div class="tab-pane fade" id="paypal" role="tabpanel" aria-labelledby="paypal-tab">
+                        <form class="row g-3 card-form">
+                          <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Name on card
+                            </label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name on card">
+                          </div>
+                          <div class="col-md-12">
+                            <label for="inputPassword4" class="form-label">Card number</label>
+                            <input type="number" class="form-control" id="inputPassword4" placeholder="0000 0000 0000 0000">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Security Code</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Security Code">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputState" class="form-label">Expiration Date</label>
+                            <input type="date" class="form-control" id="inputCity" placeholder="MM/YY">
+                          </div>
+                        
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-primary pay-btn">Submit</button>
+                          </div>
+                        </form> 
+                        
+                       </div>
+
+                      <div class="tab-pane fade" id="payoneer" role="tabpanel" aria-labelledby="payoneer-tab">
+                        <form class="row g-3 card-form">
+                          <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label">Name on card
+                            </label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Name on card">
+                          </div>
+                          <div class="col-md-12">
+                            <label for="inputPassword4" class="form-label">Card number</label>
+                            <input type="number" class="form-control" id="inputPassword4" placeholder="0000 0000 0000 0000">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Security Code</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Security Code">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputState" class="form-label">Expiration Date</label>
+                            <input type="date" class="form-control" id="inputCity" placeholder="mm/yy">
+                          </div>
+                        
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-primary pay-btn">Submit</button>
+                          </div>
+                        </form> 
+                     </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+               
+          </section>
+          <!-----Card-Details Section End------->
+<!-----Manu Section Start------->
+             
+        <div class="container menu">
+            <div class="row">
+                    <ul class="nav">
+                        <li ><a href="#"><i class="fa-solid fa-house" id="home-items"></i> Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"  id="home-items"></i> Stores</a></li>
+                        <li><a href="#"><i class="fa-solid fa-comment-dollar"  id="home-items"></i> Switch</a></li>
+                        <li><a href="#"><i class="fa-solid fa-indian-rupee-sign"  id="home-items"></i> My Money</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"  id="home-items"></i> History</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!-----Manu Section End------->
+   
+    <!------JS Files-------->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/font-all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+         <!-----Head Section Start------->
+         <div class="container header">
+            <div class="row">
+                <div class="col-6">
+                    <div class="header-l">
+                        <i class="fa-solid fa-user" id="users"></i>
+                        <h3>MD.AFZAL MIAH <i class="fa-solid fa-caret-down"></i> </h3>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="header-r">
+                    <ul class="nav">
+                        <li class="qrc"><a href="#"><i class="fa-solid fa-qrcode" id="r-items"></i> </a></li>
+                        <li class="noti"><a href="#"></a><i class="fa-solid fa-bell" id="r-items"></i></a></li>
+                        <li class="qus"><a href="#"></a><i class="fa-solid fa-question" id="r-items"></i></a></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+         <!-----Head Section End------->
+         <!-----Bank-Details Section Start------->
+         <section class="container bank-details">
+
+            <ul class="nav nav-pills mb-3 bank-items" id="pills-tab" role="tablist">
+                <li class="nav-item " role="presentation" id="all-items">
+                  <button class="nav-link active" id="pills-add-tab" data-bs-toggle="pill" data-bs-target="#pills-add" type="button" role="tab" aria-controls="pills-add" aria-selected="true">Add Bank Account</button>
+                </li>
+
+                <li class="nav-item" role="presentation" id="all-items">
+                  <button class="nav-link" id="pills-listed-tab" data-bs-toggle="pill" data-bs-target="#pills-listed" type="button" role="tab" aria-controls="pills-listed" aria-selected="false">Listed account</button>
+                </li>
+
+                <li class="nav-item" role="presentation" id="all-items">
+                  <button class="nav-link" id="pills-edit-tab" data-bs-toggle="pill" data-bs-target="#pills-edit" type="button" role="tab" aria-controls="pills-edit" aria-selected="false">Edit Address</button>
+                </li>
+
+                <li class="nav-item" role="presentation" id="all-items">
+                    <button class="nav-link" id="pills-delete-tab" data-bs-toggle="pill" data-bs-target="#pills-delete" type="button" role="tab" aria-controls="pills-delete" aria-selected="false">Delete Address</button>
+                  </li>
+                  <!-- <label for="toggle" class="nav-icon">
+                    <input type="checkbox" class="menu-button">
+                    <i><i class="fa-solid fa-bars"></i></i>
+                  </label> -->
+              </ul>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-add" role="tabpanel" aria-labelledby="pills-add-tab">
+                   
+                    <form class="form bank-form">
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label form-n">Bank Name:</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="form-input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label form-n">Account Holder:</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="form-input">
+                          </div>
+                        </div>
+        
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label form-n">Branch Name:</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="form-input">
+                            </div>
+                          </div>
+
+                          <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label form-n">Account Number:</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="form-input">
+                            </div>
+                          </div>
+                        
+                        <button type="submit" class="btn btn-success" value="submit">Submit</button>
+                      </form>
+                </div>
+
+                <div class="tab-pane fade" id="pills-listed" role="tabpanel" aria-labelledby="pills-listed-tab">
+
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Islami Bank</li>
+                        <li class="list-group-item">Janata Bank</li>
+                        <li class="list-group-item">Sonali Bank</li>
+                      </ol>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-edit" role="tabpanel" aria-labelledby="pills-edit-tab">
+                    <form class="form bank-form">
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label form-n">Bank Name:</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="form-input">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label form-n">Account Holder:</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="form-input">
+                          </div>
+                        </div>
+        
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label form-n">Branch Name:</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="form-input">
+                            </div>
+                          </div>
+
+                          <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label form-n">Account Number:</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="form-input">
+                            </div>
+                          </div>
+                        
+                        <button type="submit" class="btn btn-success" value="save">Edit</button>
+                      </form>
+
+                </div>
+
+                <div class="tab-pane fade" id="pills-delete" role="tabpanel" aria-labelledby="pills-delete-tab">
+
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Islami Bank</div>
+                            MD Afzal Miah
+                          </div>
+                          <span class="badge bg-danger rounded-pill">Delete</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Janata Bank</div>
+                            Joy Debnath
+                          </div>
+                          <span class="badge bg-danger rounded-pill">Delete</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Sonali Bank</div>
+                             MD Jmal Uddin
+                          </div>
+                          <span class="badge bg-danger rounded-pill">Delete</span>
+                        </li>
+                      </ol>
+                </div>
+              </div>
+            
+            
+            
+       
+         </section>
+
+<!-----Manu Section Start------->
+             
+        <div class="container menu">
+            <div class="row">
+                    <ul class="nav">
+                        <li ><a href="#"><i class="fa-solid fa-house" id="home-items"></i> Home</a></li>
+                        <li><a href="#"><i class="fa-solid fa-basket-shopping"  id="home-items"></i> Stores</a></li>
+                        <li><a href="#"><i class="fa-solid fa-comment-dollar"  id="home-items"></i> Switch</a></li>
+                        <li><a href="#"><i class="fa-solid fa-indian-rupee-sign"  id="home-items"></i> My Money</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"  id="home-items"></i> History</a></li>
+                    </ul>
+            </div>
+        </div>
+        <!-----Manu Section End------->
+   
+    <!------JS Files-------->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
